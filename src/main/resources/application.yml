@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///test?useSSL=true
+    username: root
+    password: 1111
+  cloud:
+    zookeeper:
+      connect-string: 192.168.221.128:2181
+  application:
+    name: provider
